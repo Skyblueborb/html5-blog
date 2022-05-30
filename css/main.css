@@ -3,32 +3,30 @@ img {
 }
 
 .site-header {
-  min-width: 280px;
-  max-width: 826px;
   margin: 0 auto;
-}
-
-.site-header {
-  padding: 0 0 42px;
 }
 
 .sparator {
   width: 100%;
 }
 
-@media all and (min-width: 601px) and (max-width: 1020px) {
+.site-header2 {
+  padding: 0 42px 0;
+}
+
+/*@media all and (min-width: 601px) and (max-width: 1020px) {
   .site-header,
   .about-me,
   .from-my-blog {
     width: 82%;
   }
-}
+}*/
 
 .works,
 .works-hex,
 nav,
 .blog-excerpts-wrapper {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .top-ribbon {
@@ -51,6 +49,10 @@ nav,
   width: 30%;
   float: left;
   margin: 0px 40px 0px;
+}
+
+.thumbnail3 {
+  width: 100%;
 }
 
 .works,
@@ -211,6 +213,7 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
+  font: 17px/17px "Bitter", Arial, sans-serif;
 }
 
 html,
@@ -247,15 +250,14 @@ h2 {
 }
 
 h2 {
-  font-family: "BandaRegular", Arial, sans-serif;
+  font-family: "Bitter", Arial, sans-serif;
   font-weight: normal;
   margin: 0.75em 0 0.25em;
 }
 
 .title-font {
-  font: 80px/80px "Sofia", Arial, sans-serif;
+  font: 80px/80px "Bitter", Arial, sans-serif;
   margin: 0.5em 0;
-  word-spacing: -14px;
 }
 
 @media all and (min-width: 601px) and (max-width: 1030px) {
@@ -270,4 +272,11 @@ h2 {
 
 .site-footer-font {
   font: 13px/20px "OpenSansLight", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("../fonts/Bitter/Bitter-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
